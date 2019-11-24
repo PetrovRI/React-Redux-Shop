@@ -1,0 +1,29 @@
+.footer {
+  width: 100%;
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  background-color: $background-mid;
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $background-mid;
+    padding: 20px 0 30px 0;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    width: 650px;
+  }
+
+  &__link {
+    color: $text-mid;
+  }
+
+  &__copyright {
+    max-width: 200px;
+  }
+}

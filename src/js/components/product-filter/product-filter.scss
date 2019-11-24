@@ -1,0 +1,9 @@
+.product-filter {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  width: 230px;
+  height: 300px;
+  border: 1px solid $border-base;
+  border-radius: 4px;
+}

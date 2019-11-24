@@ -1,0 +1,72 @@
+.basket {
+  padding: 20px;
+  background-color: $background-lightest;
+
+  &__title {
+    font-size: 30px;
+    color: $text-dark;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+
+  &__list {
+    
+  
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 755px;
+    border-bottom: 1px solid $border-base;
+    padding: 10px 0;
+    margin-bottom: 15px;
+    background-color: $background-lightest;
+
+    &:last-child {
+      margin: 0;
+    }
+  }
+
+  &__img {
+    margin-right: 10px;  
+  }
+
+
+  &__img img {
+    height: auto; 
+    width: auto; 
+    max-width: 92px; 
+    max-height: 92px;
+  }
+
+  &__product-title {
+    width: 300px;
+    margin-right: 10px;
+  }
+
+  &__total-price {
+    margin-left: 10px;
+    font-size: 15px;
+    color: $text-dark;
+    font-weight: bold;
+  }
+
+  &__count {
+    margin-left: 10px;
+  }
+
+  &__button {
+    padding: 5px 15px;
+
+    &--decrease {
+    
+    }
+
+    &--delete {
+      margin: 0 5px;
+    }
+  }
+  
+}

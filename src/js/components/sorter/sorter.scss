@@ -1,0 +1,22 @@
+.sorter {
+  display: flex;
+  margin-bottom: 25px;
+
+  &__title {
+    margin-right: 15px;
+    color: $text-mid-light;
+  }
+
+  &__list {
+    display: flex;
+  }
+
+  &__item {
+    margin-right: 15px;
+    cursor: pointer;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+}

@@ -1,0 +1,46 @@
+.header {
+
+  &__wrapper {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo {
+    color: $primary-color;
+    font-size: 26px;
+    font-weight: bold;
+  }
+
+  &__basket {
+    position: relative;
+    width: 55px;
+    height: 50px;
+    color: $text-dark;
+  } 
+
+
+  &__basket-icon {
+    position: relative;
+    left: 14px;
+    width: 30px;
+    height: 30px;
+  } 
+
+  &__basket-count {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: -5px;
+    font-size: 12px;
+    font-weight: bold;
+    height: 16px;
+    height: 22px;
+    padding: 0 8px;
+    border-radius: 18px;
+    border: 3px solid #fff;
+    color: #fff;
+    background-color: $secondary-color;
+  }
+}

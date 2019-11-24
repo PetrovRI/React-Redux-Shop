@@ -1,0 +1,43 @@
+.cart-total {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  width: 355px;
+  height: 250px;
+  background-color: $background-lightest;
+  padding: 24px;
+
+
+  &__title {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+    color: $text-dark;
+    border-bottom: 1px solid $border-base;
+  }
+
+  &__list {
+    margin-bottom: 55px;
+  }
+
+
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  &__price-text,
+  &__delivery-text {
+    font-weight: bold;
+  }
+
+
+  &__button {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    width: 100%;
+  }
+}

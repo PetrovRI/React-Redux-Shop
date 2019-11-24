@@ -1,0 +1,27 @@
+.empty-basket {
+  min-height: 500px;
+  margin: 250px auto 0 auto;
+  width: 500px;
+  text-align: center;    
+
+  &__title {
+    margin-bottom: 10px;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  &__text {
+    margin-bottom: 20px;
+  }
+
+  &__button {
+    display: block;
+    margin: 0 auto;
+    max-width: 250px;
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    
+  }
+}

@@ -1,0 +1,19 @@
+.search {
+
+  &__input {
+    padding: 7px;
+    border: 2px solid $primary-color;
+    width: 400px;
+    border-radius: 3px 0 0 3px;
+    padding-left: 15px;
+  }
+
+  &__button {
+    padding: 9px;
+    border-radius: 0 3px 3px 0;
+    color: #fff;
+    text-align: center;
+    background-color: $primary-color;
+    cursor: pointer;
+  }
+}
